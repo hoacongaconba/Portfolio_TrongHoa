@@ -63,7 +63,7 @@ ul a{
     font-weight: bold;
     color: #000;
 }
-.bar{
+.bar {
     display: none;
 }
 
@@ -250,10 +250,10 @@ main{
     .container header nav{
         display: none;
     }
-    .container header .button{
+    header .button{
         display: none;
     }
-    .container header .bar{
+     .bar{
         display: block;
         font-size: 30px;
         color: #fff;
