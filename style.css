@@ -97,8 +97,15 @@ main{
     font-size: 100px;
 }
 .image_container{
-    clip-path: inset(15px 10px 10px 10px);
     margin-top: -25px;
+}
+.img1{  
+    width: 150%;
+    height: 150%;
+    border-style: hidden;
+    position: relative;
+    filter: drop-shadow(0 0 20px yellow);
+    right: 150px;
 }
 .readmore{
     background-color: transparent;
@@ -214,7 +221,7 @@ main{
 
 
 
-/* @media onlyscreen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     main{
         flex-direction: column;
         align-items: center;
