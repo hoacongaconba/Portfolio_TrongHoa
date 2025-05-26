@@ -66,7 +66,58 @@ ul a{
 .bar {
     display: none;
 }
-
+/* From Uiverse.io by gagan-gv */ 
+.btn1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background: green;
+    color: #f5f5f5;
+    position: relative;
+    left: 150px;
+  }
+  
+  .btn1:hover {
+    box-shadow: 0 0 20px 0px #2e2e2e3a;
+  }
+  
+  .btn1 .icon1 {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  
+  .btn1 .text1 {
+    transform: translateX(55px);
+  }
+  
+  .btn1:hover .icon1 {
+    width: 175px;
+  }
+  
+  .btn1:hover .text1 {
+    transition: all 0.5s;
+    opacity: 0;
+  }
+  
+  .btn1:focus {
+    outline: none;
+  }
+  
+  .btn1:active .icon {
+    transform: scale(0.85);
+  }
 
 
 
@@ -102,10 +153,15 @@ main{
 .img1{  
     width: 150%;
     height: 150%;
-    border-style: hidden;
+    /* border-style: hidden; */
     position: relative;
     filter: drop-shadow(0 0 20px yellow);
-    right: 150px;
+    right: 100px;
+    transition: all 0.4s ease-in-out;
+    transform: translate(0);
+}
+.img1:hover{
+    transform: scale(1.1);
 }
 .readmore{
     background-color: transparent;
